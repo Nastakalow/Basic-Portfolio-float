@@ -7,10 +7,18 @@ body{
     font-size: 18px;
     line-height: 34px;
     color: #777;
+    background-image: url("../images/concrete_seamless.png")
 }
 
+
+/* HEADER START */
+
 header{
+    position: fixed;
+    top: 0;
+    width: 100%;
     border-bottom: 2px solid #ccc;
+    background-color: #fff;
 }
 
 .content-bar{
@@ -40,14 +48,96 @@ header{
 nav a{
     text-decoration: none;
     color: #999;
-    border-right: 1px solid #efefef;
-    padding-right: 15px;
+    border-left: 1px solid #efefef;
+    padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
     text-decoration: none;
 }
 
-a:nth-child(3){
-    border-right: 0;
+a:first-child{
+    border-left: 0;
 }
 
+/* HEADER FINISHED */
+
+
+
+/* ABOUT ME START */
+
+.main-content-area{
+    width: 960px;
+    margin: 130px auto 30px auto;
+    height: 510px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    margin-bottom: 30px;
+}
+
+
+.aboutme-title{
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+}
+
+.profile-photo{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+section{
+    border: 1px solid #ddd;
+    float: left;
+    width: 650px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+aside{
+    border: 1px solid #ddd;
+    float: right;
+    width: 270px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.media-title{
+    font-size: 22px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;
+}
+
+.media{
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+/* ABOUT ME FINISHED */
+
+
+
+/* FOOTER START */
+
+footer{
+    padding: 30px 0;
+    font-size: 12px;
+    clear: both;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5; 
+}
+
+/* FOOTER FINISHED */
