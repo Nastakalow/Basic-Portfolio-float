@@ -144,7 +144,7 @@ aside{
 }
 
 .gallery:nth-child(even) {
-    margin-right: 40px;
+    margin-right: 39px;
 }
 
 .gallery img {
