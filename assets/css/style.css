@@ -72,6 +72,12 @@ a:first-child{
     margin: 130px auto 30px auto;
 }
 
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 h1, h2, h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
