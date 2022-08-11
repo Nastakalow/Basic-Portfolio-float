@@ -1,3 +1,3 @@
-# Basic-Portfolio HTML & CSS
+# Basic-Portfolio (HTML & CSS)
 
 only float is used.
